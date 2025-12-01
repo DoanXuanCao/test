@@ -9,7 +9,7 @@ import os
 # 1. CẤU HÌNH HỆ THỐNG & TÀI NGUYÊN
 # ==============================================================================
 st.set_page_config(
-    page_title="Premium Birthday Wish",
+    page_title="Sinh nhật vui vẻ",
     page_icon="🎁",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -249,4 +249,5 @@ def main():
         st.markdown('</div>', unsafe_allow_html=True) 
 
 if __name__ == "__main__":
+
     main()
